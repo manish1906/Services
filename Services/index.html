@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="Demo">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <title>Demo</title>
+</head>
+<body>
+    <div ng-controller="SumController">
+        <input type="text" ng-model="value1" />
+        <br />
+        <input type="text" ng-model="value2" />
+        <br />
+        Sum:- {{sum}}
+        <br />
+        <button ng-click="doSum()">Calculate</button>
+    </div>
+    <div ng-controller="SumController1">
+        <input type="text" ng-model="value1" />
+        <br />
+        <input type="text" ng-model="value2" />
+        <br />
+        Sum:- {{sum}}
+        <br />
+        <button ng-click="doSum()">Calculate</button>
+    </div>
+</body>
+</html>
